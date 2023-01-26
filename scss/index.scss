@@ -1,0 +1,85 @@
+body {
+    background-color: #ffe5e4;
+}
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 1000px;
+    margin-top: 15px;
+}
+
+.scale {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transition: all 0.3s ease-in-out;   /* 부드러운 모션을 위해 추가*/
+}
+  .scale:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+  }
+    .img-arrange {
+        width: 490px;
+        overflow:hidden; 
+    }   
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+
+    .img-arrange {
+            margin-bottom: 10px;
+    }
+    
+    
+    /* .img-arrange {
+        display: flex;
+
+        &:first-child {
+            margin-bottom: 10px;
+        }
+
+        img {
+            border-radius: 10px;
+        }
+    } */
+}
+
+// .pop_inner {
+//     position: relative;
+//     padding: 10px 50px;
+//     border-radius: 5px;
+//     border: 1px solid #000;
+//     margin-top: 30px;
+
+//     .btn_close {
+//         position: absolute;
+//         right: 50px;
+//     }
+// } 
+
+img {
+    width: 490px;
+    height: 349px;
+}
+
+// .btn_open {
+//     img {
+//         &:hover {
+//             box-shadow: 0px 0px 8px rgb(75, 75, 75);
+//         }
+//     }
+// }
+
+// #pop_info_2,
+// #pop_info_3,
+// #pop_info_4 {
+//     display: none;
+// }
